@@ -21,7 +21,7 @@ def topology():
                        failMode='standalone', position='10,10,0')
 
     info("*** Configuring Propagation Model\n")
-    net.setPropagationModel(model="logNormalShadowing", exp=4, variance=2)
+    net.setPropagationModel(model="friis", sL = 1)
 
     net.plotGraph(max_x=100, max_y=100)
 
