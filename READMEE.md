@@ -5,7 +5,7 @@ Este projeto demonstra a aplicação de conceitos avançados de Java, incluindo 
 ## Estrutura de Pacotes
 
 | Pacote | Conteúdo | Descrição |
-| --------------- | -----:| :--------: |
+| --------------- | :-----| :-------- |
 | app | SistemaProdutos.java | Classe principal de execução e demonstração. |
 | exception | NegocioException.java | Exceção customizada para regras de negócio (e.g., preço negativo). |
 | model | InfoProd.java, Produto.java, ProdutoAlimenticio.java, ProdutoArtesanal.java | Classes de dados e a anotação customizada. |
